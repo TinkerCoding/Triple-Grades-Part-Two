@@ -1,0 +1,13 @@
+/**
+ * @param {array} grades
+ */
+function tripleGrades(grade) {
+    return grades.map(function(grade) {
+        return grade * 3
+    })
+}
+
+
+// Sample usage - do not modify
+console.log(tripleGrades([10, 20]))  // [10, 30]
+console.log(tripleGrades([5, 12, 20, 10])) // [15, 36, 60, 30]
